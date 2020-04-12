@@ -1,20 +1,21 @@
-MOUNTING
-------
-constructor() => render() => componentDidMount()
+CONTEXT
+--------
 
-
-UPDATES
-------
-New Props
-              => render() => componentDidUpdate(
-setState()                      prevProps, prevState)
-
-
-UNMOUNTING
-------
-componentWillUnmount()
-
-
-ERROR
-------
-componentDidCatch()
+<App>
+  <Provider value={chatService}>
+    <HomePage>
+      <Dashboard>
+        <NewNotifications>
+        </NewNotifications>
+      </Dashboard>
+    </HomePage>
+  
+    <SupportPage>
+      <MyOpenTickets />
+      <TeamSpace>
+        <Chat>
+        </Chat>
+      </TeamSpace>
+    </SupportPage>
+  </Provider>
+</App>
