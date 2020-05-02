@@ -1,3 +1,3 @@
-# react-redux-SWAPI
+# react SWAPI
 
-a React-Redux project using swapi.co API to fetch info about Star Wars characters, battleships and so on
+a React project using swapi.co API to fetch info about Star Wars characters, battleships and so on
